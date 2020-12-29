@@ -4,7 +4,7 @@ Aplicação em Angular 11 que consulta o CEP, consumindo Webservice (API REST JS
 # Demonstração
 Link para visualizar/testar: https://carlosmorais.github.io/Consultar-CEP-com-Angular-11/dist/prod/
 
-![alt text](src/assets/print.png) 
+<a href="https://carlosmorais.github.io/Consultar-CEP-com-Angular-11/dist/prod/" target="_blank">![alt text](src/assets/print.png)</a>
 
 ## WEBSERVICE
 https://viacep.com.br/ws/01001000/json/
