@@ -1,34 +1,33 @@
 <div class="container">
-  <h1>Consulta CEP</h1>
-  <div class="form-group">
-    <input type="text"  [(ngModel)]="cep" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite o Cep">
-     </div>
-     <button (click)="getCep()" type="submit" class="btn btn-primary">Consultar</button>
+    <h1>Consulta CEP</h1>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="cep" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite o Cep">
+    </div>
+    <button (click)="getCep()" type="submit" class="btn btn-primary">Consultar</button>
 </div>
 
 
 <div class="container" *ngIf="endereco">
-  <form>
+    <form>
 
-    <div class="form-group">
-      <label for="exampleInputEmail1">Endereço</label>
-       <small id="logradouro" class="form-text text-muted">{{endereco.logradouro}}</small>
-    </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Endereço</label>
+            <small id="logradouro" class="form-text text-muted">{{endereco.logradouro}}</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Bairro</label>
+            <small id="bairro" class="form-text text-muted">{{endereco.bairro}}</small>
+        </div>
 
-    <div class="form-group">
-        <label for="exampleInputEmail1">Bairro</label>
-         <small id="bairro" class="form-text text-muted">{{endereco.bairro}}</small>
-      </div>
-
-      <div class="form-group">
-          <label for="exampleInputEmail1">Cidade</label>
-           <small id="localidade" class="form-text text-muted">{{endereco.localidade}}</small>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Cidade</label>
+            <small id="localidade" class="form-text text-muted">{{endereco.localidade}}</small>
         </div>
 
         <div class="form-group">
             <label for="exampleInputEmail1">Estado</label>
-             <small id="uf" class="form-text text-muted">{{endereco.uf}}</small>
-          </div>
+            <small id="uf" class="form-text text-muted">{{endereco.uf}}</small>
+        </div>
 
-  </form>
+    </form>
 </div>
