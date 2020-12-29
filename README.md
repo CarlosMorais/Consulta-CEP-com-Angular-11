@@ -1,5 +1,5 @@
 # Descrição
-Consultar CEP com Angular 11, consumindo Webservice (API REST JSON) do site www.viacep.com.br.
+Aplicação em Angular 11 que consulta o CEP, consumindo Webservice (API REST JSON) do site www.viacep.com.br.
 
 # Demonstração
 Link para visualizar/testar: https://carlosmorais.github.io/Consultar-CEP-com-Angular-11/dist/prod/
