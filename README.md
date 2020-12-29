@@ -18,7 +18,7 @@ https://viacep.com.br/ws/01001000/json/
 7. endereco.component.ts
 8. endereco.component.html
 
-# Noticias-Do-Estado-com-Angular-11
+# Consultar-CEP-com-Angular-11
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
 ## Development server
