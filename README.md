@@ -1,10 +1,10 @@
 # Descrição
-Consultar CEP com Angular 11, consumindo Webservice (API REST JSON) do site www.viacep.com.br.
+Aplicação em Angular 11 que consulta o CEP, consumindo Webservice (API REST JSON) do site www.viacep.com.br.
 
 # Demonstração
-Link para visualizar/testar: https://carlosmorais.github.io/Noticias-Do-Estado-com-Angular-11/dist/prod/
+Link para visualizar/testar: https://carlosmorais.github.io/Consultar-CEP-com-Angular-11/dist/prod/
 
-![alt text](src/assets/print.png) 
+<a href="https://carlosmorais.github.io/Consultar-CEP-com-Angular-11/dist/prod/" target="_blank">![alt text](src/assets/print.png)</a>
 
 ## WEBSERVICE
 https://viacep.com.br/ws/01001000/json/
@@ -18,7 +18,7 @@ https://viacep.com.br/ws/01001000/json/
 7. endereco.component.ts
 8. endereco.component.html
 
-# Noticias-Do-Estado-com-Angular-11
+# Consultar-CEP-com-Angular-11
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
 ## Development server
