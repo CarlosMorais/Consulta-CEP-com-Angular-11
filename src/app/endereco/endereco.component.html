@@ -10,24 +10,17 @@
 <div class="container" *ngIf="endereco">
     <form>
 
-        <div class="form-group">
-            <label for="exampleInputEmail1">Endereço</label>
-            <small id="logradouro" class="form-text text-muted">{{endereco.logradouro}}</small>
+        <div class="card">
+            <div class="card-header">
+                Dados do CEP: {{endereco.cep}}
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p>{{endereco.logradouro}}</p>
+                    <footer class="blockquote-footer">Bairro: {{endereco.bairro}}</footer>
+                    <footer class="blockquote-footer">Cidade: {{endereco.localidade}} - {{endereco.uf}}</footer>
+                </blockquote>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Bairro</label>
-            <small id="bairro" class="form-text text-muted">{{endereco.bairro}}</small>
-        </div>
-
-        <div class="form-group">
-            <label for="exampleInputEmail1">Cidade</label>
-            <small id="localidade" class="form-text text-muted">{{endereco.localidade}}</small>
-        </div>
-
-        <div class="form-group">
-            <label for="exampleInputEmail1">Estado</label>
-            <small id="uf" class="form-text text-muted">{{endereco.uf}}</small>
-        </div>
-
     </form>
 </div>
