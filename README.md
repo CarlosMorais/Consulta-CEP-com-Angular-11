@@ -2,7 +2,7 @@
 Consultar CEP com Angular 11, consumindo Webservice (API REST JSON) do site www.viacep.com.br.
 
 # Demonstração
-Link para visualizar/testar: https://carlosmorais.github.io/Noticias-Do-Estado-com-Angular-11/dist/prod/
+Link para visualizar/testar: https://carlosmorais.github.io/Consultar-CEP-com-Angular-11/dist/prod/
 
 ![alt text](src/assets/print.png) 
 
