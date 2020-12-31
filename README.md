@@ -6,7 +6,7 @@ Link para visualizar/testar: https://carlosmorais.github.io/Consultar-CEP-com-An
 
 <a href="https://carlosmorais.github.io/Consultar-CEP-com-Angular-11/dist/prod/" target="_blank">![alt text](src/assets/print.png)</a>
 
-## WEBSERVICE
+## WEBSERVICE 
 https://viacep.com.br/ws/01001000/json/
 
 1. ng generate component endereco
