@@ -1,5 +1,5 @@
 # Descrição
-Aplicação em Angular 11 que consulta o CEP, consumindo Webservice (API REST JSON) do site www.viacep.com.br.
+Aplicação em Angular 11 que consulta o CEP, consumindo Webservice (API RESTful JSON) do site www.viacep.com.br.
 
 # Demonstração
 Link para visualizar/testar: 
